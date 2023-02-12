@@ -5,7 +5,5 @@ COPY . .
 RUN mv bot app
 RUN chmod 777 /usr/src/app
 
-WORKDIR /usr/src/app
-
 CMD ["bash", "start.sh"]
 
